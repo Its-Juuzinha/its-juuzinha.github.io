@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ITSJUUZINHA · Media Kit 2026</title>
+<meta name="description" content="Media Kit oficial da ITSJUUZINHA — Streamer e criadora de conteúdo gamer. Twitch e Instagram. Parcerias e colaborações.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#120E18;
+    --bg-2:#1B1524;
+    --bg-3:#0E0B12;
+    --card:#1f1830;
+    --card-2:#241c38;
+    --border:rgba(255,255,255,.07);
+    --border-2:rgba(255,255,255,.12);
+    --text:#F4F1F7;
+    --muted:#B3ACC1;
+    --muted-2:#7A7388;
+    --pink:#FF52BE;
+    --pink-2:#EC1E9C;
+    --purple:#A970FF;
+    --green:#35D06A;
+    --grad:linear-gradient(105deg,#FF52BE 0%,#EC1E9C 50%,#A970FF 100%);
+    --grad-soft:linear-gradient(135deg,#FF52BE,#A970FF);
+    --radius:18px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Inter',system-ui,sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{width:100%;max-width:1060px;margin:0 auto;padding:0 24px}
+  .serif{font-family:'Playfair Display',serif}
+  .grad-text{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .eyebrow{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--pink)}
+  section{padding:64px 0;position:relative}
+  .sec-num{font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--muted-2);margin-bottom:10px}
+  h2.sec-title{font-size:2rem;font-weight:700;line-height:1.15;margin-bottom:8px}
+  .sec-sub{color:var(--muted);font-size:1.02rem;margin-bottom:38px}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    position:relative;text-align:center;
+    padding:88px 24px 92px;overflow:hidden;
+  }
+  .hero::before{
+    content:"";position:absolute;inset:0;z-index:0;
+    background:
+      radial-gradient(55% 50% at 50% 6%, rgba(169,112,255,.38), transparent 70%),
+      radial-gradient(45% 40% at 16% 26%, rgba(236,30,156,.20), transparent 70%),
+      radial-gradient(50% 42% at 86% 22%, rgba(255,82,190,.18), transparent 70%),
+      linear-gradient(180deg,#241c38 0%,#140f20 46%,var(--bg) 100%);
+  }
+  .hero>*{position:relative;z-index:1}
+  .kit-label{font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;font-weight:600;color:var(--muted);margin-bottom:26px}
+  .avatar{
+    width:150px;height:150px;margin:0 auto 24px;position:relative;
+    border-radius:50%;padding:4px;background:var(--grad);
+    box-shadow:0 0 0 1px rgba(255,255,255,.08), 0 0 44px rgba(255,82,190,.5);
+  }
+  .avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover;background:#0d1320}
+  .avatar .live{
+    position:absolute;bottom:8px;right:8px;width:20px;height:20px;border-radius:50%;
+    background:var(--green);border:3px solid var(--bg);box-shadow:0 0 12px var(--green);
+  }
+  h1.name{font-size:3.4rem;font-weight:800;letter-spacing:-.02em;line-height:1}
+  .role{color:var(--muted);font-size:1.05rem;margin-top:14px;font-weight:500}
+  .intro{max-width:560px;margin:18px auto 0;color:var(--muted);font-size:1rem}
+  .pills{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin:26px 0 8px}
+  .pill{font-size:.8rem;font-weight:500;padding:7px 15px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--border-2);color:var(--text)}
+  .pill.on{background:rgba(53,208,106,.12);border-color:rgba(53,208,106,.4);color:#7ef0a8}
+  .loc{display:inline-flex;align-items:center;gap:7px;color:var(--muted);font-size:.9rem;margin-top:18px}
+  .loc svg{width:15px;height:15px}
+
+  /* ---------- STAT STRIP ---------- */
+  .strip{margin-top:-34px;position:relative;z-index:3}
+  .strip-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  .stat{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:22px 18px;text-align:center}
+  .stat .v{font-size:1.7rem;font-weight:800;line-height:1;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .stat .l{font-size:.76rem;color:var(--muted);margin-top:8px;line-height:1.35}
+
+  /* ---------- CARDS ---------- */
+  .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:26px}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+
+  /* platform cards */
+  .plat{position:relative;overflow:hidden}
+  .plat .ph{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+  .plat .ph .ic{width:42px;height:42px;border-radius:11px;display:grid;place-items:center;flex:none}
+  .plat.tw .ic{background:rgba(145,70,255,.16)}
+  .plat.ig .ic{background:rgba(255,82,190,.14)}
+  .plat .ic svg{width:24px;height:24px}
+  .plat .pn{font-weight:700;font-size:1.15rem}
+  .plat .handle{color:var(--muted);font-size:.85rem}
+  .plat .lead{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:4px 10px;border-radius:999px;margin-left:auto}
+  .plat.tw .lead{background:rgba(145,70,255,.18);color:#c9a9ff}
+  .plat.ig .lead{background:rgba(255,82,190,.14);color:#ff9ad8}
+  .plat .rows{display:grid;grid-template-columns:1fr 1fr;gap:16px 14px}
+  .plat .row .n{font-size:1.5rem;font-weight:800;color:var(--text)}
+  .plat .row .k{font-size:.76rem;color:var(--muted);margin-top:2px}
+  .note{font-size:.8rem;color:var(--muted-2);margin-top:16px;line-height:1.45}
+
+  /* big stat list */
+  .bigstats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .bigstat{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:24px}
+  .bigstat .v{font-size:2.1rem;font-weight:800;line-height:1;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .bigstat .l{font-size:.86rem;color:var(--muted);margin-top:8px}
+  .bigstat.hl{border-color:rgba(255,82,190,.35);background:linear-gradient(160deg,rgba(255,82,190,.08),rgba(169,112,255,.05))}
+
+  /* audience */
+  .aud-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .bar{margin-bottom:14px}
+  .bar .bl{display:flex;justify-content:space-between;font-size:.86rem;margin-bottom:6px}
+  .bar .bl .pc{font-weight:700}
+  .bar .track{height:8px;border-radius:999px;background:rgba(255,255,255,.07);overflow:hidden}
+  .bar .fill{height:100%;border-radius:999px;background:var(--grad-soft)}
+  .donut-wrap{display:flex;align-items:center;gap:22px}
+  .donut{width:128px;height:128px;border-radius:50%;flex:none;
+    background:conic-gradient(var(--purple) 0 92.3%, #3a3350 92.3% 100%);
+    display:grid;place-items:center;position:relative}
+  .donut::after{content:"";position:absolute;width:88px;height:88px;border-radius:50%;background:var(--card)}
+  .donut .dv{position:relative;z-index:1;text-align:center}
+  .donut .dv b{font-size:1.5rem;font-weight:800;display:block;line-height:1}
+  .donut .dv span{font-size:.7rem;color:var(--muted)}
+
+  /* segments */
+  .seg-group{margin-bottom:22px}
+  .seg-group h4{font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;font-weight:700}
+  .seg-tags{display:flex;flex-wrap:wrap;gap:9px}
+  .seg{font-size:.84rem;font-weight:600;padding:9px 15px;border-radius:11px;border:1px solid var(--border-2)}
+  .seg.fit{background:rgba(53,208,106,.1);border-color:rgba(53,208,106,.32);color:#8ff0b2}
+  .seg.sec{background:rgba(255,255,255,.03);color:var(--muted)}
+
+  /* formats */
+  .fmt{display:flex;gap:16px;padding:18px 0;border-bottom:1px solid var(--border)}
+  .fmt:last-child{border-bottom:none}
+  .fmt .fn{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:700;color:var(--purple);flex:none;width:38px}
+  .fmt .ft b{font-size:1.02rem;display:block;margin-bottom:3px}
+  .fmt .ft p{font-size:.9rem;color:var(--muted)}
+
+  /* partners */
+  .pcards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .pcard{border:1px dashed var(--border-2);border-radius:14px;padding:20px;text-align:center}
+  .pcard.filled{border-style:solid;background:rgba(145,70,255,.08);border-color:rgba(145,70,255,.3)}
+  .pcard .pt{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted-2);font-weight:700}
+  .pcard .pb{font-weight:700;margin-top:6px;font-size:1.05rem}
+  .pcard.filled .pb{color:#c9a9ff}
+
+  /* CTA */
+  .cta{background:var(--grad);border-radius:24px;padding:46px 32px;text-align:center;position:relative;overflow:hidden}
+  .cta h2{font-size:2rem;font-weight:800;color:#fff;max-width:620px;margin:0 auto 12px}
+  .cta p{color:rgba(255,255,255,.9);max-width:520px;margin:0 auto 26px}
+  .cta-rows{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+  .cta-item{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.25);border-radius:12px;padding:12px 18px;backdrop-filter:blur(6px)}
+  .cta-item .ci-k{font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.75);font-weight:700}
+  .cta-item .ci-v{font-weight:700;color:#fff;margin-top:3px}
+
+  footer{text-align:center;padding:42px 24px 56px;color:var(--muted-2)}
+  .socials{display:flex;justify-content:center;gap:20px;margin-bottom:16px}
+  .socials a{color:var(--muted);transition:color .2s,transform .2s}
+  .socials a:hover{color:var(--pink);transform:translateY(-2px)}
+  .socials svg{width:23px;height:23px}
+  footer .cr{font-size:.84rem;color:var(--muted)}
+  footer .mk{font-size:.74rem;margin-top:6px}
+
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
+  .reveal.in{opacity:1;transform:none}
+
+  @media(max-width:860px){
+    .strip-grid{grid-template-columns:repeat(2,1fr)}
+    .two,.aud-grid{grid-template-columns:1fr}
+    .bigstats{grid-template-columns:1fr 1fr}
+    .pcards{grid-template-columns:1fr}
+    h1.name{font-size:2.7rem}
+    h2.sec-title{font-size:1.6rem}
+  }
+  @media(max-width:480px){
+    .bigstats{grid-template-columns:1fr}
+    .plat .rows{grid-template-columns:1fr 1fr}
+    .donut-wrap{flex-direction:column;text-align:center}
+  }
+  @media(prefers-reduced-motion:reduce){
+    *{animation:none!important}
+    .reveal{opacity:1;transform:none;transition:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="kit-label">Media Kit · 2026</div>
+  <div class="avatar">
+    <img src="foto-ju.png" alt="ITSJUUZINHA">
+    <span class="live" title="Ao vivo"></span>
+  </div>
+  <h1 class="name">ITS<span class="grad-text">JUUZINHA</span></h1>
+  <p class="role">Juliana Rosa — Streamer &amp; criadora de conteúdo gamer</p>
+  <p class="intro">Oi! Eu sou a Ju. Games, entretenimento ao vivo e muita interação com a comunidade — todos os dias na Twitch e nas redes.</p>
+  <div class="pills">
+    <span class="pill on">● Ao vivo todos os dias</span>
+    <span class="pill">Games</span>
+    <span class="pill">Humor</span>
+    <span class="pill">Comunidade</span>
+  </div>
+  <div class="loc">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+    Lages · SC · Brasil
+  </div>
+</header>
+
+<!-- ============ STAT STRIP ============ -->
+<div class="strip">
+  <div class="wrap">
+    <div class="strip-grid">
+      <div class="stat reveal"><div class="v">145–200</div><div class="l">Espectadores simultâneos por live</div></div>
+      <div class="stat reveal"><div class="v">~1 mi</div><div class="l">Minutos assistidos ao vivo / mês</div></div>
+      <div class="stat reveal"><div class="v">84</div><div class="l">Inscrições (subs) / mês na Twitch</div></div>
+      <div class="stat reveal"><div class="v">48 mil+</div><div class="l">Bits / mês — comunidade que apoia</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 01 QUEM É ============ -->
+<section>
+  <div class="wrap">
+    <div class="sec-num">01 — Quem é a Juuzinha</div>
+    <h2 class="sec-title">É uma <span class="grad-text">comunidade</span> que aparece todo dia.</h2>
+    <div class="two" style="margin-top:28px">
+      <div class="card reveal">
+        <p style="color:var(--muted);margin-bottom:14px">Streamer e criadora de conteúdo gamer, focada em games, entretenimento ao vivo e interação com a comunidade. O conteúdo mistura gameplay, humor e momentos espontâneos — uma experiência leve pra quem acompanha as lives e as redes.</p>
+        <p style="color:var(--muted)">Além das transmissões, produzo cortes, vídeos curtos e divulgação integrada de forma natural ao conteúdo.</p>
+        <p class="serif" style="font-style:italic;font-size:1.1rem;margin-top:18px;color:var(--text)">“Meu objetivo é transformar cada live em um ambiente divertido, próximo da comunidade e cheio de personalidade.” 💜</p>
+      </div>
+      <div class="card reveal">
+        <div class="seg-group">
+          <h4>Formato</h4>
+          <div class="seg-tags">
+            <span class="seg sec">Lives diárias (Seg–Dom) na Twitch</span>
+            <span class="seg sec">Reels no Instagram</span>
+            <span class="seg sec">Cortes, memes e bastidores</span>
+          </div>
+        </div>
+        <div class="seg-group" style="margin-bottom:0">
+          <h4>Encaixe direto com o público</h4>
+          <div class="seg-tags">
+            <span class="seg fit">Games &amp; eSports</span>
+            <span class="seg fit">Energéticos &amp; bebidas</span>
+            <span class="seg fit">Periféricos &amp; hardware</span>
+            <span class="seg fit">Setup &amp; cadeiras gamer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 TWITCH LEAD ============ -->
+<section style="background:var(--bg-2)">
+  <div class="wrap">
+    <div class="sec-num">02 — O ativo principal</div>
+    <h2 class="sec-title">A força está no <span class="grad-text">ao vivo</span></h2>
+    <p class="sec-sub">Audiência de Twitch não se infla com impulsionamento. Simultâneos, subs e Bits são atenção real, de gente que volta todo dia — e é isso que a marca compra.</p>
+    <div class="bigstats">
+      <div class="bigstat hl reveal"><div class="v">80,8 mil</div><div class="l">Espectadores únicos / mês na Twitch</div></div>
+      <div class="bigstat hl reveal"><div class="v">173 mil</div><div class="l">Visualizações ao vivo / mês</div></div>
+      <div class="bigstat hl reveal"><div class="v">960 mil</div><div class="l">Minutos assistidos / mês</div></div>
+      <div class="bigstat reveal"><div class="v">145–200</div><div class="l">Espectadores simultâneos por live</div></div>
+      <div class="bigstat reveal"><div class="v">84</div><div class="l">Inscrições (subs) / mês</div></div>
+      <div class="bigstat reveal"><div class="v">48.320</div><div class="l">Bits / mês — muito acima da meta mensal</div></div>
+    </div>
+    <p class="note">90%+ da audiência da Twitch é brasileira, concentrada entre 18 e 34 anos. Programa Twitch Plus (nível 1) alcançado — canal reconhecido pela plataforma como monetizável.</p>
+  </div>
+</section>
+
+<!-- ============ 03 PLATAFORMAS ============ -->
+<section>
+  <div class="wrap">
+    <div class="sec-num">03 — Onde ela vive</div>
+    <h2 class="sec-title">Dois canais, um ecossistema</h2>
+    <p class="sec-sub">A Twitch sustenta a audiência fiel; o Instagram é a vitrine que traz gente nova. Números apresentados separados, como cada plataforma mede.</p>
+    <div class="two">
+      <div class="card plat tw reveal">
+        <div class="ph">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="#A970FF"><path d="M4 2 3 6v13h4v3h3l3-3h4l5-5V2H4Zm16 9-3 3h-4l-3 3v-3H7V4h13v7Z"/></svg></span>
+          <div><div class="pn">Twitch</div><div class="handle">/itsjuuzinha</div></div>
+          <span class="lead">Principal</span>
+        </div>
+        <div class="rows">
+          <div class="row"><div class="n">145–200</div><div class="k">Média de espectadores ao vivo</div></div>
+          <div class="row"><div class="n">173 mil</div><div class="k">Views ao vivo / mês</div></div>
+          <div class="row"><div class="n">960 mil</div><div class="k">Minutos assistidos / mês</div></div>
+          <div class="row"><div class="n">84</div><div class="k">Inscrições (subs) / mês</div></div>
+          <div class="row"><div class="n">48.320</div><div class="k">Bits / mês</div></div>
+          <div class="row"><div class="n">80,8 mil</div><div class="k">Espectadores únicos / mês</div></div>
+        </div>
+      </div>
+      <div class="card plat ig reveal">
+        <div class="ph">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#FF52BE" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="#FF52BE" stroke="none"/></svg></span>
+          <div><div class="pn">Instagram</div><div class="handle">@itsjuuzinha</div></div>
+          <span class="lead">Vitrine</span>
+        </div>
+        <div class="rows">
+          <div class="row"><div class="n">1.819</div><div class="k">Seguidores</div></div>
+          <div class="row"><div class="n">+9,4%</div><div class="k">Crescimento / mês</div></div>
+          <div class="row"><div class="n">23,1 mil</div><div class="k">Visualizações / mês</div></div>
+          <div class="row"><div class="n">61%</div><div class="k">Da audiência é Brasil</div></div>
+          <div class="row"><div class="n">1.033</div><div class="k">Interações / mês</div></div>
+          <div class="row"><div class="n">13 mil</div><div class="k">Visualizações Brasil / mês</div></div>
+        </div>
+        <p class="note">Alcance impulsionado de forma segmentada. Base de descoberta e captação para a Twitch — a maioria do conteúdo que converte traz o selo Twitch.tv.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 04 PÚBLICO ============ -->
+<section style="background:var(--bg-2)">
+  <div class="wrap">
+    <div class="sec-num">04 — Perfil do público</div>
+    <h2 class="sec-title">Quem está do outro lado da tela</h2>
+    <p class="sec-sub">Público majoritariamente masculino, adulto e brasileiro — encaixe direto com games, hardware e energéticos.</p>
+    <div class="aud-grid">
+      <div class="card reveal">
+        <h4 style="font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:18px;font-weight:700">Gênero</h4>
+        <div class="donut-wrap">
+          <div class="donut"><div class="dv"><b>92%</b><span>homens</span></div></div>
+          <div>
+            <p style="font-size:.95rem;color:var(--muted)">Público <b style="color:var(--text)">92% masculino</b>, concentrado na faixa de maior poder de compra em tecnologia e games.</p>
+            <div style="margin-top:14px">
+              <div class="bar"><div class="bl"><span>18–24</span><span class="pc">19,6%</span></div><div class="track"><div class="fill" style="width:20%"></div></div></div>
+              <div class="bar"><div class="bl"><span>25–34</span><span class="pc">52,6%</span></div><div class="track"><div class="fill" style="width:53%"></div></div></div>
+              <div class="bar"><div class="bl"><span>35–44</span><span class="pc">22,0%</span></div><div class="track"><div class="fill" style="width:22%"></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card reveal">
+        <h4 style="font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:18px;font-weight:700">Localização — audiência Twitch</h4>
+        <div class="bar"><div class="bl"><span>Brasil</span><span class="pc">90,4%</span></div><div class="track"><div class="fill" style="width:90%"></div></div></div>
+        <div class="bar"><div class="bl"><span>Estados Unidos</span><span class="pc">1,7%</span></div><div class="track"><div class="fill" style="width:5%"></div></div></div>
+        <div class="bar"><div class="bl"><span>México</span><span class="pc">1,1%</span></div><div class="track"><div class="fill" style="width:4%"></div></div></div>
+        <div class="bar"><div class="bl"><span>Canadá</span><span class="pc">0,6%</span></div><div class="track"><div class="fill" style="width:3%"></div></div></div>
+        <p class="note">Principais cidades: São Paulo, Fortaleza, Lages e Rio de Janeiro. Pico de atividade entre 12h e 21h (BRT).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 SEGMENTOS ============ -->
+<section>
+  <div class="wrap">
+    <div class="sec-num">05 — Encaixe de marca</div>
+    <h2 class="sec-title">Segmentos que conversam com esse público</h2>
+    <p class="sec-sub">Poucas marcas por vez — pra manter a recomendação verdadeira.</p>
+    <div class="card reveal">
+      <div class="seg-group">
+        <h4>Encaixe direto (público 92% masculino, 25–34, gamer)</h4>
+        <div class="seg-tags">
+          <span class="seg fit">Energéticos</span>
+          <span class="seg fit">Periféricos</span>
+          <span class="seg fit">Hardware / PC</span>
+          <span class="seg fit">Cadeiras gamer</span>
+          <span class="seg fit">Headsets</span>
+          <span class="seg fit">Mouses &amp; teclados</span>
+          <span class="seg fit">Games</span>
+          <span class="seg fit">Apps &amp; serviços gamer</span>
+          <span class="seg fit">Suplementos</span>
+        </div>
+      </div>
+      <div class="seg-group" style="margin-bottom:0">
+        <h4>Também no radar</h4>
+        <div class="seg-tags">
+          <span class="seg sec">Beleza &amp; cosméticos</span>
+          <span class="seg sec">Moda &amp; roupas</span>
+          <span class="seg sec">Maquiagem</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 06 FORMATOS ============ -->
+<section style="background:var(--bg-2)">
+  <div class="wrap">
+    <div class="sec-num">06 — Como trabalhamos juntos</div>
+    <h2 class="sec-title">Formatos de parceria</h2>
+    <div class="card reveal" style="margin-top:28px">
+      <div class="fmt"><div class="fn">01</div><div class="ft"><b>Lives patrocinadas</b><p>Sua marca ao vivo — menção, demonstração e CTA em tempo real diante de 145–200 espectadores simultâneos.</p></div></div>
+      <div class="fmt"><div class="fn">02</div><div class="ft"><b>Integração de setup</b><p>Periféricos, cadeira, headset, hardware e energético inseridos de forma natural na live e nos bastidores.</p></div></div>
+      <div class="fmt"><div class="fn">03</div><div class="ft"><b>Afiliados &amp; cupons</b><p>Códigos exclusivos e links de afiliado, com divulgação recorrente e mensuração de resultado.</p></div></div>
+      <div class="fmt"><div class="fn">04</div><div class="ft"><b>Conteúdo short-form</b><p>Reels e cortes para descoberta no Instagram, levando audiência nova para a live.</p></div></div>
+      <div class="fmt"><div class="fn">05</div><div class="ft"><b>Campanhas sob medida</b><p>Ações combinando Twitch e Instagram — sorteios, reviews e unboxings, do awareness à conversão.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 07 PARCERIAS ============ -->
+<section>
+  <div class="wrap">
+    <div class="sec-num">07 — Parcerias</div>
+    <h2 class="sec-title">Um espaço reservado pra sua marca</h2>
+    <p class="sec-sub">Poucas marcas por vez — pra manter a recomendação verdadeira.</p>
+    <div class="pcards">
+      <div class="pcard filled reveal"><div class="pt">Parceira oficial</div><div class="pb">Twitch · Afiliados</div></div>
+      <div class="pcard reveal"><div class="pt">Espaço disponível</div><div class="pb">Sua marca</div></div>
+      <div class="pcard reveal"><div class="pt">Espaço disponível</div><div class="pb">Sua marca</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section>
+  <div class="wrap">
+    <div class="cta reveal">
+      <h2>Sua marca na frente de quem realmente assiste.</h2>
+      <p>Solicite uma cotação ou proposta personalizada. Resposta rápida e ações montadas sob medida.</p>
+      <div class="cta-rows">
+        <div class="cta-item"><div class="ci-k">E-mail comercial</div><div class="ci-v">assessoria.itsjuuzinha@outlook.com</div></div>
+        <div class="cta-item"><div class="ci-k">Canal ao vivo</div><div class="ci-v">twitch.tv/itsjuuzinha</div></div>
+        <div class="cta-item"><div class="ci-k">Instagram</div><div class="ci-v">@itsjuuzinha</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="socials">
+    <a href="https://twitch.tv/itsjuuzinha" target="_blank" rel="noopener" aria-label="Twitch"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 2 3 6v13h4v3h3l3-3h4l5-5V2H4Zm16 9-3 3h-4l-3 3v-3H7V4h13v7Z"/></svg></a>
+    <a href="https://instagram.com/itsjuuzinha" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></a>
+  </div>
+  <p class="cr">ITSJUUZINHA · Juliana Rosa · Media Kit 2026</p>
+  <p class="mk">Dados: Twitch &amp; Instagram Insights — últimos 30 dias (set/2026)</p>
+</footer>
+
+<script>
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+</script>
+</body>
+</html>
